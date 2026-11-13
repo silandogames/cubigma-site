@@ -31,9 +31,9 @@
   <li><strong>Leaderboard:</strong> puzzle results and points, current league, chosen avatar and a public number. On the leaderboard you appear only as “Player 1234”, never by name.</li>
   <li><strong>Purchases:</strong> which packs are unlocked (for example, the full version). Payments are handled by Apple (App Store) or Google (Google Play); we never receive card or payment details.</li>
   <li><strong>Gameplay statistics:</strong> events such as “puzzle started”, “puzzle solved”, “hint used”, “shop opened”, which screens of the game are opened, how pieces are rotated (tap, long press or buttons) and which tips were shown, the selected mode (Kid or Adult), play time, game version and platform. Events contain no names and no free text.</li>
-  <li><strong>Device information:</strong> phone model, screen size and resolution, the phone’s language and the country or region chosen in the phone’s settings (a two-letter code such as “PH”). This is not your location: the game does not use GPS, network location or your IP address to find out where you are. We use this only to see on which phones and in which countries the game works well.</li>
+  <li><strong>Device information:</strong> phone model, screen size and resolution, the phone’s language and the country or region chosen in the phone’s settings (a two-letter code such as “PH”), and the country worked out from the address your connection comes from (IP address). We keep only the two-letter country code, never the IP address itself. We do not use GPS and never determine your city or exact location. We use this only to see on which phones and in which countries the game works well.</li>
 </ul>
-<p>Like any internet service, the server technically receives your IP address when the game connects. We do not store it with game data and do not use it to determine your location.</p>
+<p>Like any internet service, the server receives your IP address when the game connects. We use it only to work out your country (a two-letter code) and then discard it: the IP address is not stored and is never used to find your city or exact location.</p>
 
 <h2>What stays on your phone only</h2>
 <p>Your progress, the puzzle in progress, sound and vibration settings, the selected mode and the name you type in your profile. That name is never sent to the server and never shown on the leaderboard.</p>
@@ -54,7 +54,7 @@
 <p>All data is sent only over an encrypted connection (HTTPS). The installation’s secret key is stored on the server as a hash. Only the game’s developer can access the data.</p>
 
 <h2>Kid mode</h2>
-<p>The game has a mode for children. We do not ask for age and do not knowingly collect personal information from children. Kid mode collects the same anonymous gameplay statistics as Adult mode, with no name, contact details or location. The game has no ads, no advertising identifiers and no third-party SDKs, in line with Apple’s rules for kids apps and the Google Play Families policy. A parent can ask us to delete an installation’s data at any time (see below).</p>
+<p>The game has a mode for children. We do not ask for age and do not knowingly collect personal information from children. Kid mode collects the same anonymous gameplay statistics as Adult mode, with no name, contact details or exact location. The game has no ads, no advertising identifiers and no third-party SDKs, in line with Apple’s rules for kids apps and the Google Play Families policy. A parent can ask us to delete an installation’s data at any time (see below).</p>
 
 <h2>Support emails</h2>
 <p>If you contact us via “Write to us”, your mail app pre-fills the game version, your player code, phone model and system version (iOS or Android). You see the whole message and can remove any line before sending. We use your email address and message only to reply.</p>
